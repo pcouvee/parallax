@@ -30,7 +30,7 @@ jobs:
 
     - name: Install dependencies
       # Need libnuma
-      run: apt install libnuma-dev
+      run: sudo apt install libnuma-dev
 
     - name: Build
       # Build your program with the given configuration
