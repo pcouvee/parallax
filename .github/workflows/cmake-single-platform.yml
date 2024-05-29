@@ -30,7 +30,7 @@ jobs:
 
     - name: Install dependencies
       # Need libnuma
-      run: sudo apt install libnuma-dev && sudo apt install cmake build-essential && sudo apt install boost-devel
+      run: sudo apt install libnuma-dev && sudo apt install cmake build-essential && sudo apt install libboost-all-dev
 
     - name: Build
       # Build your program with the given configuration
