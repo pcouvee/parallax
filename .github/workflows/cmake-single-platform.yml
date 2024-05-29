@@ -31,6 +31,7 @@ jobs:
     - name: Install dependencies
       # Need libnuma
       run: sudo apt install libnuma-dev
+      run: sudo apt install cmake build-essential
 
     - name: Build
       # Build your program with the given configuration
